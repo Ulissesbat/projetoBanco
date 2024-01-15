@@ -27,10 +27,10 @@ public class Program {
 		conta1.setTipo(tipo);
 		conta1.abrirConta();
 		if(tipo.equals("cc")) {
-			System.out.println("PARABENS // Voce ganhou R$ 50.00 por abrir uma Conta Corrente.\n");
+			System.out.println("PARABENS --> Voce ganhou R$ 50.00 por abrir uma Conta Corrente.\n");
 			
 		} else {
-			System.out.println("PARABENS // Voce ganhou R$ 150.00 por abrir uma Conta Poupanca.\n");
+			System.out.println("PARABENS --> Voce ganhou R$ 150.00 por abrir uma Conta Poupanca.\n");
 			
 		}
 		System.out.print("Nome do titular da conta: ");
@@ -51,12 +51,12 @@ public class Program {
 		}
 
 		while (continuar) {
-			System.out.println("Escolha uma opção:");
-			System.out.println("1 - Saque");
-			System.out.println("2 - Depósito");
-			System.out.println("3 - Consultar saldo");
-			System.out.println("4 - Fechar conta");
-			System.out.println("5 - Sair");
+			System.out.println("Escolha uma opção: ");
+			System.out.println("1 - Saque ");
+			System.out.println("2 - Depósito ");
+			System.out.println("3 - Consultar saldo ");
+			System.out.println("4 - Fechar conta ");
+			System.out.println("5 - Sair ");
 
 			int opcao = sc.nextInt();
 
@@ -78,7 +78,7 @@ public class Program {
 				continuar = false;
 				break;
 			default:
-				System.out.println("Opção inválida, tente novamente.");
+				System.out.println("Opção inválida, tente novamente. ");
 				break;
 			}
 		}
